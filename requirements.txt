@@ -1,13 +1,1 @@
-# SSH Honeypot Simulation
-
-A simple SSH Honeypot written in Python that mimics an SSH server.  
-It captures IPs, usernames, and passwords from connection attempts and logs them in `connections.log`.
-
-## Features
-- Fake SSH banner and login prompt  
-- Logs connection attempts with IP, username, and password  
-- Multi-threaded (handles multiple connections)
-
-## Usage
-```bash
-python fake_server.py
+# No external libraries required. Uses Python standard libraries.
